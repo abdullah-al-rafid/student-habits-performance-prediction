@@ -4,7 +4,7 @@ import joblib
 import warnings
 warnings.filterwarnings("ignore")
 
-model = joblib.load('C:/Users/USER/Desktop/final show/best_model.pkl')
+model = joblib.load('best_model.pkl')
 
 st.title("Marks Predictor For DMML")
 
