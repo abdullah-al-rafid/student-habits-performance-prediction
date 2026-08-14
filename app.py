@@ -22,11 +22,9 @@ if st.button("Predict"):
     
     input_data = np.array([study_hours,attendance,mental_health,sleep_hours,social_media_hours,ptj_encode]).reshape(1,-1)
     prediction = model.predict(input_data)[0]
-    
-   prediction = model.predict(input_data)[0]
 
-   prediction = max(0, min(100, prediction))
+    prediction = max(0, min(100, prediction))
 
-   st.success(f"Predicted Exam Score: {prediction:.2f}")
+    st.success(f"Predicted Exam Score: {prediction:.2f}")
     
-   st.success(f"Predicted Exam Score: {prediction:.2f}")
+    st.success(f"Predicted Exam Score: {prediction:.2f}")
