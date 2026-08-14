@@ -27,4 +27,3 @@ if st.button("Predict"):
 
     st.success(f"Predicted Exam Score: {prediction:.2f}")
     
-    st.success(f"Predicted Exam Score: {prediction:.2f}")
